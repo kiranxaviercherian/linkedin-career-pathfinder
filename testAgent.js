@@ -7,7 +7,7 @@ async function testScraper() {
     console.log("Starting debug scraper...");
 
     // Create a mock session
-    const targetCompany = "Google";
+    const targetCompany = "H&R Block";
     const targetRole = "Product Manager";
     const session = sessionStore.createSession(targetCompany, targetRole, { maxPages: 1 });
 

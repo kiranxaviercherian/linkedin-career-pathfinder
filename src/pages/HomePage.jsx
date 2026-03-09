@@ -5,7 +5,7 @@ export default function HomePage() {
     const navigate = useNavigate();
     const [company, setCompany] = useState('');
     const [role, setRole] = useState('Product Manager');
-    const [maxPages, setMaxPages] = useState(1);
+    const [maxPages, setMaxPages] = useState(5);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 

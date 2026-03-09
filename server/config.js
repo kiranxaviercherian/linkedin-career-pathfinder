@@ -2,7 +2,7 @@
 // All values are defaults and can be overridden per-session via API
 
 const config = {
-    maxPages: 1,
+    maxPages: 5,
     pageLoadDelay: 5000,
     profileVisitDelay: 5000,
     maxProfiles: 100,
